@@ -7,25 +7,25 @@ import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "TB_POST")
+@Table(name="TB_POST")
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
 
-    @NotBlank //não pode ter valor em branco
+    @NotBlank
     private String titulo;
 
     @NotBlank
     private String autor;
 
-    @NotBlank
-    @Lob //faz com que o banco aceite valores grandes
-    private String texto;
-
     @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "dd-MM-yyyy")
     private LocalDate data;
+
+    @NotBlank
+    @Lob
+    private String texto;
 
     public Long getId() {
         return id;
@@ -51,19 +51,19 @@ public class Post {
         this.autor = autor;
     }
 
-    public String getTexto() {
-        return texto;
-    }
-
-    public void setTexto(String texto) {
-        this.texto = texto;
-    }
-
     public LocalDate getData() {
         return data;
     }
 
     public void setData(LocalDate data) {
         this.data = data;
+    }
+
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
     }
 }
