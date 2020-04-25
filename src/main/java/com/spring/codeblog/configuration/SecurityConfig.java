@@ -18,7 +18,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             "/",
             "/posts",
             "/posts/{id}",
-            "/css/posts.css"
+            "/css/posts.css",
+            "/css/postForm.css"
 
     };
 
