@@ -1,3 +1,14 @@
-h1{
-    font-size: 40px;
+.bg-pink{
+    background-color: #FF69B4;
+}
+body{
+    background-color: #FDF5E6;
+}
+.bd-subti{
+    background-color: #FDF5E6;
+    padding-left: 0px;
+}
+.btn-color{
+    background-color: #4682B4;
+    border-color: #4682B4;
 }

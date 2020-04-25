@@ -8,25 +8,24 @@
 </head>
 
 <body>
-    <h1>sdfs</h1>
     <header>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light navbar-dark bg-pink">
             <span class="navbar-brand mb-0 h1">BLOG</span>
-            <a href="/newpost" class="btn btn-primary" role="button">Novo Post</a>
+            <a href="/newpost" class="btn btn-primary btn-color" role="button">Novo Post</a>
         </nav>
     </header>
     <section>
 
         <div class="container"  style="width: 60%; padding-bottom: 30px;">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb" style="background-color: white; padding-left: 0px;">
-                    <li class="breadcrumb-item active" aria-current="page">Posts</li>
+            <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb bd-subti" >
+                    <li class="breadcrumb-item active " aria-current="page">Posts</li>
                 </ol>
             </nav>
 
             <div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
                 <div class="card-body">
-                    <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
+                    <p class="card-subtitle mb-2 text-muted " style="font-size: 0.8rem;">
                         <span th:text="${post.autor}"></span>
                         <span th:text="${post.data}"></span>
                     </p>
