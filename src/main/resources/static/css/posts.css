@@ -8,10 +8,7 @@ body{
     background-color: #FDF5E6;
     padding-left: 0px;
 }
-.btn-color{
-    background-color: #4682B4;
-    border-color: #4682B4;
-}
+
 .container{
     width: 60%;
     padding-bottom: 30px;
@@ -26,5 +23,5 @@ body{
 }
 #btndel{
     float: right;
-    
+
 }

@@ -1,0 +1,15 @@
+.bg-pink{
+    background-color: #FF69B4;
+}
+body{
+    background-color: #FDF5E6;
+}
+.bd-subti{
+    background-color: #FDF5E6;
+    padding-left: 0px;
+}
+.cardpost{
+    padding: 15px;
+    border-color: #FFDAB9;
+    text-align: justify;
+}
