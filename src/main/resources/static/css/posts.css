@@ -11,5 +11,19 @@ body{
 .btn-color{
     background-color: #4682B4;
     border-color: #4682B4;
-
+}
+#btndel{
+    margin-left: 30px;
+}
+.container{
+    width: 60%;
+    padding-bottom: 30px;
+}
+.cardpost{
+    margin-top: 20px;
+}
+.card-title{
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
 }

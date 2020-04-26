@@ -52,4 +52,10 @@ public class CodeblogController {
         codeblogService.save(post);
         return "redirect:/posts";
     }
+    @RequestMapping("/deletar")
+    public String deletarPost(long id){
+        Post post = codeblogService.findById(id);
+        codeblogService.delete(post);
+        return "redirect:/posts";
+    }
 }
