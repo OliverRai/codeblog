@@ -12,9 +12,6 @@ body{
     background-color: #4682B4;
     border-color: #4682B4;
 }
-#btndel{
-    margin-left: 30px;
-}
 .container{
     width: 60%;
     padding-bottom: 30px;
@@ -26,4 +23,8 @@ body{
     font-weight: bold;
     color: black;
     padding-top: 5px;
+}
+#btndel{
+    float: right;
+    
 }
